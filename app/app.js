@@ -4,6 +4,7 @@ const input = document.querySelector('#Search');
 const form = document.querySelector('#form');
 const container = document.querySelector('.main');
 const endpoint = 'https://api.unsplash.com/photos'
+const client = "tu api key"
 
 form.addEventListener('submit', e => e.preventDefault());
 

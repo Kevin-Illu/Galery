@@ -1,13 +1,13 @@
 export const Card = (likes, links, urls, user) => {
 
     const { download } = links;
-    const { small, thumb } = urls;
+    const { small } = urls;
     const { username, bio, instagram_username } = user;
 
     const card = document.createElement('div')
     card.classList.add('card', 'animate__animated', 'animate__fadeInDown')
     card.innerHTML = `
-    <img class="card-img" src="${thumb}" alt="image by ${username}" />
+    <img class="card-img" src="${small}" alt="image by ${username}" />
     <footer>
         <div class="description">
             <div class="name">
