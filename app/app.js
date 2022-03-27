@@ -1,7 +1,5 @@
 import { Card } from './card.js'
-const client = 'RGUR8HFU1l6qKpfVc4eC6_oqeE5S2qB0q6yRP52-O3Y';
-const apikey = '563492ad6f917000010000017cfa1478a04e4e8ba86297ecf7638445'
-
+const client = 'ERGUR8HFU1l6qKpfVc4eC6_oqeE5S2qB0q6yRP52-O3';
 
 const input = document.querySelector('#Search');
 const form = document.querySelector('#form');
