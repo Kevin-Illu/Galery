@@ -12,7 +12,7 @@ ejecute
 ```
 git clone https://github.com/Kevin-Illu/Codigo-Morse-App.git
 ```
-abra el archivo html y listo xd.
+abra el archivo html y listo ejecute live-server o algo similar y listo.
 
 ### imagesnes de referencia
 ![vista pc](./assets/screen.png)
