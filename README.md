@@ -12,7 +12,11 @@ ejecute
 ```
 git clone https://github.com/Kevin-Illu/Codigo-Morse-App.git
 ```
-abra el archivo html y listo ejecute live-server o algo similar y listo.
+abra el archivo html y tendra que crear una api key de Unsplash para poder hacer peticiones. una vez tiene su api-key escriba esto en el archivo app.js
+```javascript
+const client = "tu api key"
+```
+ejecute live-server o algo similar y listo.
 
 ### imagesnes de referencia
 ![vista pc](./assets/screen.png)
